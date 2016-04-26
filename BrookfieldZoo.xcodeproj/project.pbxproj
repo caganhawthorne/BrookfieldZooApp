@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8639E028F7EAD58B288671EB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFEF806A06CB6EC8FD85DFD /* Pods.framework */; };
 		EF880CC41CCFD11900B8CD34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF880CC31CCFD11900B8CD34 /* AppDelegate.swift */; };
 		EF880CC61CCFD11900B8CD34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF880CC51CCFD11900B8CD34 /* ViewController.swift */; };
 		EF880CC91CCFD11900B8CD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF880CC71CCFD11900B8CD34 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FFEF806A06CB6EC8FD85DFD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E8BB4B51F098F3AF08BD61 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EF880CC01CCFD11900B8CD34 /* BrookfieldZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrookfieldZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF880CC31CCFD11900B8CD34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF880CC51CCFD11900B8CD34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		EF880CE21CCFD11A00B8CD34 /* BrookfieldZooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrookfieldZooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF880CE61CCFD11B00B8CD34 /* BrookfieldZooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrookfieldZooUITests.swift; sourceTree = "<group>"; };
 		EF880CE81CCFD11B00B8CD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F354148B8721D1DA7F6CBC98 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8639E028F7EAD58B288671EB /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F9AE492D92DD8E97A7AE797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52E8BB4B51F098F3AF08BD61 /* Pods.debug.xcconfig */,
+				F354148B8721D1DA7F6CBC98 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF880CB71CCFD11800B8CD34 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,8 @@
 				EF880CDA1CCFD11A00B8CD34 /* BrookfieldZooTests */,
 				EF880CE51CCFD11B00B8CD34 /* BrookfieldZooUITests */,
 				EF880CC11CCFD11900B8CD34 /* Products */,
+				5F9AE492D92DD8E97A7AE797 /* Pods */,
+				F6E66B18DF7BC061915A505A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +144,14 @@
 			path = BrookfieldZooUITests;
 			sourceTree = "<group>";
 		};
+		F6E66B18DF7BC061915A505A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FFEF806A06CB6EC8FD85DFD /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF880CEB1CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZoo" */;
 			buildPhases = (
+				90080FEEFEBBFADD892295B2 /* Check Pods Manifest.lock */,
 				EF880CBC1CCFD11900B8CD34 /* Sources */,
 				EF880CBD1CCFD11900B8CD34 /* Frameworks */,
 				EF880CBE1CCFD11900B8CD34 /* Resources */,
+				1A2FD98F06ED252578234D2E /* Embed Pods Frameworks */,
+				17D35F76C2D2C72331A25B9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D35F76C2D2C72331A25B9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A2FD98F06ED252578234D2E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90080FEEFEBBFADD892295B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF880CBC1CCFD11900B8CD34 /* Sources */ = {
@@ -400,6 +475,7 @@
 		};
 		EF880CEC1CCFD11B00B8CD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E8BB4B51F098F3AF08BD61 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrookfieldZoo/Info.plist;
@@ -411,6 +487,7 @@
 		};
 		EF880CED1CCFD11B00B8CD34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F354148B8721D1DA7F6CBC98 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrookfieldZoo/Info.plist;
@@ -487,6 +564,7 @@
 				EF880CED1CCFD11B00B8CD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF880CEE1CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZooTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +573,7 @@
 				EF880CF01CCFD11B00B8CD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF880CF11CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZooUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +582,7 @@
 				EF880CF31CCFD11B00B8CD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
