@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF880CC41CCFD11900B8CD34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF880CC31CCFD11900B8CD34 /* AppDelegate.swift */; };
+		EF880CC61CCFD11900B8CD34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF880CC51CCFD11900B8CD34 /* ViewController.swift */; };
+		EF880CC91CCFD11900B8CD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF880CC71CCFD11900B8CD34 /* Main.storyboard */; };
+		EF880CCC1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF880CCA1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodeld */; };
+		EF880CCE1CCFD11A00B8CD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF880CCD1CCFD11A00B8CD34 /* Assets.xcassets */; };
+		EF880CD11CCFD11A00B8CD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF880CCF1CCFD11A00B8CD34 /* LaunchScreen.storyboard */; };
+		EF880CDC1CCFD11A00B8CD34 /* BrookfieldZooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF880CDB1CCFD11A00B8CD34 /* BrookfieldZooTests.swift */; };
+		EF880CE71CCFD11B00B8CD34 /* BrookfieldZooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF880CE61CCFD11B00B8CD34 /* BrookfieldZooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF880CD81CCFD11A00B8CD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF880CB81CCFD11800B8CD34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF880CBF1CCFD11900B8CD34;
+			remoteInfo = BrookfieldZoo;
+		};
+		EF880CE31CCFD11A00B8CD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF880CB81CCFD11800B8CD34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF880CBF1CCFD11900B8CD34;
+			remoteInfo = BrookfieldZoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF880CC01CCFD11900B8CD34 /* BrookfieldZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrookfieldZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF880CC31CCFD11900B8CD34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF880CC51CCFD11900B8CD34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF880CC81CCFD11900B8CD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF880CCB1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrookfieldZoo.xcdatamodel; sourceTree = "<group>"; };
+		EF880CCD1CCFD11A00B8CD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF880CD01CCFD11A00B8CD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF880CD21CCFD11A00B8CD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF880CD71CCFD11A00B8CD34 /* BrookfieldZooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrookfieldZooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF880CDB1CCFD11A00B8CD34 /* BrookfieldZooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrookfieldZooTests.swift; sourceTree = "<group>"; };
+		EF880CDD1CCFD11A00B8CD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF880CE21CCFD11A00B8CD34 /* BrookfieldZooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrookfieldZooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF880CE61CCFD11B00B8CD34 /* BrookfieldZooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrookfieldZooUITests.swift; sourceTree = "<group>"; };
+		EF880CE81CCFD11B00B8CD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF880CBD1CCFD11900B8CD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF880CD41CCFD11A00B8CD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF880CDF1CCFD11A00B8CD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF880CB71CCFD11800B8CD34 = {
+			isa = PBXGroup;
+			children = (
+				EF880CC21CCFD11900B8CD34 /* BrookfieldZoo */,
+				EF880CDA1CCFD11A00B8CD34 /* BrookfieldZooTests */,
+				EF880CE51CCFD11B00B8CD34 /* BrookfieldZooUITests */,
+				EF880CC11CCFD11900B8CD34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF880CC11CCFD11900B8CD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF880CC01CCFD11900B8CD34 /* BrookfieldZoo.app */,
+				EF880CD71CCFD11A00B8CD34 /* BrookfieldZooTests.xctest */,
+				EF880CE21CCFD11A00B8CD34 /* BrookfieldZooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF880CC21CCFD11900B8CD34 /* BrookfieldZoo */ = {
+			isa = PBXGroup;
+			children = (
+				EF880CC31CCFD11900B8CD34 /* AppDelegate.swift */,
+				EF880CC51CCFD11900B8CD34 /* ViewController.swift */,
+				EF880CC71CCFD11900B8CD34 /* Main.storyboard */,
+				EF880CCD1CCFD11A00B8CD34 /* Assets.xcassets */,
+				EF880CCF1CCFD11A00B8CD34 /* LaunchScreen.storyboard */,
+				EF880CD21CCFD11A00B8CD34 /* Info.plist */,
+				EF880CCA1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodeld */,
+			);
+			path = BrookfieldZoo;
+			sourceTree = "<group>";
+		};
+		EF880CDA1CCFD11A00B8CD34 /* BrookfieldZooTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF880CDB1CCFD11A00B8CD34 /* BrookfieldZooTests.swift */,
+				EF880CDD1CCFD11A00B8CD34 /* Info.plist */,
+			);
+			path = BrookfieldZooTests;
+			sourceTree = "<group>";
+		};
+		EF880CE51CCFD11B00B8CD34 /* BrookfieldZooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF880CE61CCFD11B00B8CD34 /* BrookfieldZooUITests.swift */,
+				EF880CE81CCFD11B00B8CD34 /* Info.plist */,
+			);
+			path = BrookfieldZooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF880CBF1CCFD11900B8CD34 /* BrookfieldZoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF880CEB1CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZoo" */;
+			buildPhases = (
+				EF880CBC1CCFD11900B8CD34 /* Sources */,
+				EF880CBD1CCFD11900B8CD34 /* Frameworks */,
+				EF880CBE1CCFD11900B8CD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrookfieldZoo;
+			productName = BrookfieldZoo;
+			productReference = EF880CC01CCFD11900B8CD34 /* BrookfieldZoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF880CD61CCFD11A00B8CD34 /* BrookfieldZooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF880CEE1CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZooTests" */;
+			buildPhases = (
+				EF880CD31CCFD11A00B8CD34 /* Sources */,
+				EF880CD41CCFD11A00B8CD34 /* Frameworks */,
+				EF880CD51CCFD11A00B8CD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF880CD91CCFD11A00B8CD34 /* PBXTargetDependency */,
+			);
+			name = BrookfieldZooTests;
+			productName = BrookfieldZooTests;
+			productReference = EF880CD71CCFD11A00B8CD34 /* BrookfieldZooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF880CE11CCFD11A00B8CD34 /* BrookfieldZooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF880CF11CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZooUITests" */;
+			buildPhases = (
+				EF880CDE1CCFD11A00B8CD34 /* Sources */,
+				EF880CDF1CCFD11A00B8CD34 /* Frameworks */,
+				EF880CE01CCFD11A00B8CD34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF880CE41CCFD11A00B8CD34 /* PBXTargetDependency */,
+			);
+			name = BrookfieldZooUITests;
+			productName = BrookfieldZooUITests;
+			productReference = EF880CE21CCFD11A00B8CD34 /* BrookfieldZooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF880CB81CCFD11800B8CD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cagan Hawthorne";
+				TargetAttributes = {
+					EF880CBF1CCFD11900B8CD34 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EF880CD61CCFD11A00B8CD34 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF880CBF1CCFD11900B8CD34;
+					};
+					EF880CE11CCFD11A00B8CD34 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF880CBF1CCFD11900B8CD34;
+					};
+				};
+			};
+			buildConfigurationList = EF880CBB1CCFD11800B8CD34 /* Build configuration list for PBXProject "BrookfieldZoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF880CB71CCFD11800B8CD34;
+			productRefGroup = EF880CC11CCFD11900B8CD34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF880CBF1CCFD11900B8CD34 /* BrookfieldZoo */,
+				EF880CD61CCFD11A00B8CD34 /* BrookfieldZooTests */,
+				EF880CE11CCFD11A00B8CD34 /* BrookfieldZooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF880CBE1CCFD11900B8CD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF880CD11CCFD11A00B8CD34 /* LaunchScreen.storyboard in Resources */,
+				EF880CCE1CCFD11A00B8CD34 /* Assets.xcassets in Resources */,
+				EF880CC91CCFD11900B8CD34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF880CD51CCFD11A00B8CD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF880CE01CCFD11A00B8CD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF880CBC1CCFD11900B8CD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF880CC61CCFD11900B8CD34 /* ViewController.swift in Sources */,
+				EF880CCC1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodeld in Sources */,
+				EF880CC41CCFD11900B8CD34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF880CD31CCFD11A00B8CD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF880CDC1CCFD11A00B8CD34 /* BrookfieldZooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF880CDE1CCFD11A00B8CD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF880CE71CCFD11B00B8CD34 /* BrookfieldZooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF880CD91CCFD11A00B8CD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF880CBF1CCFD11900B8CD34 /* BrookfieldZoo */;
+			targetProxy = EF880CD81CCFD11A00B8CD34 /* PBXContainerItemProxy */;
+		};
+		EF880CE41CCFD11A00B8CD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF880CBF1CCFD11900B8CD34 /* BrookfieldZoo */;
+			targetProxy = EF880CE31CCFD11A00B8CD34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF880CC71CCFD11900B8CD34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF880CC81CCFD11900B8CD34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF880CCF1CCFD11A00B8CD34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF880CD01CCFD11A00B8CD34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF880CE91CCFD11B00B8CD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF880CEA1CCFD11B00B8CD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF880CEC1CCFD11B00B8CD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrookfieldZoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.BrookfieldZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF880CED1CCFD11B00B8CD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrookfieldZoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.BrookfieldZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF880CEF1CCFD11B00B8CD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrookfieldZooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.BrookfieldZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrookfieldZoo.app/BrookfieldZoo";
+			};
+			name = Debug;
+		};
+		EF880CF01CCFD11B00B8CD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrookfieldZooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.BrookfieldZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrookfieldZoo.app/BrookfieldZoo";
+			};
+			name = Release;
+		};
+		EF880CF21CCFD11B00B8CD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BrookfieldZooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.BrookfieldZooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BrookfieldZoo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF880CF31CCFD11B00B8CD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BrookfieldZooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.BrookfieldZooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BrookfieldZoo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF880CBB1CCFD11800B8CD34 /* Build configuration list for PBXProject "BrookfieldZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF880CE91CCFD11B00B8CD34 /* Debug */,
+				EF880CEA1CCFD11B00B8CD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF880CEB1CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF880CEC1CCFD11B00B8CD34 /* Debug */,
+				EF880CED1CCFD11B00B8CD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF880CEE1CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF880CEF1CCFD11B00B8CD34 /* Debug */,
+				EF880CF01CCFD11B00B8CD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF880CF11CCFD11B00B8CD34 /* Build configuration list for PBXNativeTarget "BrookfieldZooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF880CF21CCFD11B00B8CD34 /* Debug */,
+				EF880CF31CCFD11B00B8CD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF880CCA1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF880CCB1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodel */,
+			);
+			currentVersion = EF880CCB1CCFD11A00B8CD34 /* BrookfieldZoo.xcdatamodel */;
+			path = BrookfieldZoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF880CB81CCFD11800B8CD34 /* Project object */;
+}
